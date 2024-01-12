@@ -23,6 +23,10 @@
 		27785E0C2B518D46009FE3B7 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27785E0B2B518D46009FE3B7 /* PageView.swift */; };
 		27785E0F2B5192E6009FE3B7 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27785E0E2B5192E6009FE3B7 /* Background.swift */; };
 		27785E112B51A2C7009FE3B7 /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27785E102B51A2C7009FE3B7 /* PageModel.swift */; };
+		27785E162B51AA05009FE3B7 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27785E132B51AA05009FE3B7 /* Inter-Regular.ttf */; };
+		27785E172B51AA05009FE3B7 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27785E142B51AA05009FE3B7 /* Poppins-Bold.ttf */; };
+		27785E182B51AA05009FE3B7 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27785E152B51AA05009FE3B7 /* Inter-SemiBold.ttf */; };
+		27785E1B2B51ACEE009FE3B7 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27785E1A2B51ACEE009FE3B7 /* CustomFont.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +47,11 @@
 		27785E0B2B518D46009FE3B7 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		27785E0E2B5192E6009FE3B7 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
 		27785E102B51A2C7009FE3B7 /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
+		27785E132B51AA05009FE3B7 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		27785E142B51AA05009FE3B7 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		27785E152B51AA05009FE3B7 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		27785E192B51AA49009FE3B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		27785E1A2B51ACEE009FE3B7 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +84,7 @@
 		180FCD2A2AFA9DF50078418F /* DoCode */ = {
 			isa = PBXGroup;
 			children = (
+				27785E192B51AA49009FE3B7 /* Info.plist */,
 				27785E0D2B5192D3009FE3B7 /* Background */,
 				276FE5A22B50403F00E605D4 /* SplashScreen */,
 				27785E072B518B76009FE3B7 /* Sliding Introduction */,
@@ -82,6 +92,7 @@
 				180FCD2B2AFA9DF50078418F /* DoCodeApp.swift */,
 				180FCD2D2AFA9DF50078418F /* ContentView.swift */,
 				180FCD2F2AFA9DF80078418F /* Assets.xcassets */,
+				27785E122B51AA05009FE3B7 /* Fonts */,
 				276FE5932B50403900E605D4 /* RiveAssets */,
 				180FCD312AFA9DF80078418F /* Preview Content */,
 			);
@@ -100,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				18CEC9C32B2780A70081DBB6 /* Colors.swift */,
+				27785E1A2B51ACEE009FE3B7 /* CustomFont.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -167,6 +179,16 @@
 			path = Background;
 			sourceTree = "<group>";
 		};
+		27785E122B51AA05009FE3B7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				27785E132B51AA05009FE3B7 /* Inter-Regular.ttf */,
+				27785E142B51AA05009FE3B7 /* Poppins-Bold.ttf */,
+				27785E152B51AA05009FE3B7 /* Inter-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -227,12 +249,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27785E182B51AA05009FE3B7 /* Inter-SemiBold.ttf in Resources */,
 				276FE59F2B50403900E605D4 /* shapes.riv in Resources */,
 				276FE59D2B50403900E605D4 /* check.riv in Resources */,
 				180FCD332AFA9DF80078418F /* Preview Assets.xcassets in Resources */,
 				276FE59E2B50403900E605D4 /* menu_button.riv in Resources */,
 				276FE59B2B50403900E605D4 /* house.riv in Resources */,
 				276FE5A02B50403900E605D4 /* button.riv in Resources */,
+				27785E162B51AA05009FE3B7 /* Inter-Regular.ttf in Resources */,
+				27785E172B51AA05009FE3B7 /* Poppins-Bold.ttf in Resources */,
 				180FCD302AFA9DF80078418F /* Assets.xcassets in Resources */,
 				276FE59C2B50403900E605D4 /* confetti.riv in Resources */,
 				276FE5A12B50403900E605D4 /* icons.riv in Resources */,
@@ -251,6 +276,7 @@
 				180FCD2E2AFA9DF50078418F /* ContentView.swift in Sources */,
 				276FE5A42B50405E00E605D4 /* SplashView.swift in Sources */,
 				18CEC9C42B2780A70081DBB6 /* Colors.swift in Sources */,
+				27785E1B2B51ACEE009FE3B7 /* CustomFont.swift in Sources */,
 				180FCD2C2AFA9DF50078418F /* DoCodeApp.swift in Sources */,
 				27785E0F2B5192E6009FE3B7 /* Background.swift in Sources */,
 			);
@@ -388,6 +414,7 @@
 				DEVELOPMENT_TEAM = 9872Q3S934;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DoCode/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -417,6 +444,7 @@
 				DEVELOPMENT_TEAM = 9872Q3S934;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DoCode/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
